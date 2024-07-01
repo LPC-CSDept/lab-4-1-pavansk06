@@ -2,8 +2,8 @@ def main():
 
     N = int(input('Enter the number N: '))
     result = []
-    for a in range(1, N+1):
-        result.append(2**a)
+    for a in range(0, N+1):
+        result.append(2**N)
     print (result)
 
     """
