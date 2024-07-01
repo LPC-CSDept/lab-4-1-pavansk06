@@ -2,7 +2,7 @@ def main():
 
     N = int(input('Enter the number N: '))
     result = []
-    for a in range(N+1):
+    for a in range(1, N+1):
         result.append(2**a)
     print (result)
 
